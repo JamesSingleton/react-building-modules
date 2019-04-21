@@ -1,0 +1,50 @@
+{
+  "name": "react-building-blocks",
+  "version": "1.0.0",
+  "description": "Components made with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesSingleton/react-building-blocks.git"
+  },
+  "keywords": [
+    "react components",
+    "building blocks",
+    "component",
+    "components",
+    "react"
+  ],
+  "author": "James Singleton (https://twitter.com/Design__Pattern)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesSingleton/react-building-blocks/issues"
+  },
+  "homepage": "https://github.com/JamesSingleton/react-building-blocks#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "eslint-config-amex": "^10.1.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.17.0"
+  }
+}
