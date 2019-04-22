@@ -1,6 +1,7 @@
 # React Building Blocks
 
-Creating reusable component with React
+[![CircleCI](https://circleci.com/gh/JamesSingleton/react-building-blocks.svg?style=svg)](https://circleci.com/gh/JamesSingleton/react-building-blocks)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Design__Pattern.svg?style=social)](https://twitter.com/Design__Pattern)
 
 ## Built With
 
