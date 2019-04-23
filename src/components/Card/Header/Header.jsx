@@ -46,12 +46,12 @@ const Header = ({ title, subtitle, suffix }) => (
 Header.propTypes = {
   title: PropTypes.node.isRequired,
   subtitle: PropTypes.node,
-  suffix: PropTypes.node
+  suffix: PropTypes.node,
 };
 
 Header.defaultProps = {
   subtitle: '',
-  suffix: ''
+  suffix: '',
 };
 
 export default Header;
