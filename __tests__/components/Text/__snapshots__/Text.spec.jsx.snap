@@ -22,10 +22,13 @@ exports[`Text should render as a span 1`] = `
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
-            "lastClassName": "jbUwpR",
+            "lastClassName": "gIUtbY",
             "rules": Array [
               "
 font-size: ",
+              [Function],
+              "
+line-height: ",
               [Function],
               "
   & > a {
@@ -54,7 +57,7 @@ font-size: ",
       weight="thin"
     >
       <span
-        className="sc-bdVaJa jbUwpR"
+        className="sc-bdVaJa gIUtbY"
         size="medium"
       >
         Hello Span

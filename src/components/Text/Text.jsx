@@ -21,6 +21,11 @@ font-size: ${(props) => {
     if (props.size === SIZES.tiny) return '0.75rem';
     return '1rem';
   }}
+line-height: ${(props) => {
+    if (props.size === SIZES.small) return '1.125rem';
+    if (props.size === SIZES.tiny) return '0.9375rem';
+    return '1.5rem';
+  }}
   & > a {
     color: #3899EC;
     text-decoration: none;
