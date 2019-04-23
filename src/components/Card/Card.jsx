@@ -5,20 +5,20 @@ import styled, { css } from 'styled-components';
 const StyledCard = styled.div`
   background: #ffffff;
   border-radius: 0.5rem;
-  ${props =>
-    props.stretchVertically &&
-    css`
+  ${props => props.stretchVertically
+    && css`
       height: 100%;
       flex-grow: 1;
     `}
-  ${props =>
-    props.hideOverflow &&
-    css`
+  ${props => props.hideOverflow
+    && css`
       overflow: hidden;
     `}
 `;
 
-const Card = ({ stretchVertically, hideOverflow, className, children }) => (
+const Card = ({
+  stretchVertically, hideOverflow, className, children,
+}) => (
   <StyledCard
     stretchVertically={stretchVertically}
     hideOverflow={hideOverflow}
@@ -32,13 +32,13 @@ Card.propTypes = {
   children: PropTypes.node.isRequired,
   stretchVertically: PropTypes.bool,
   hideOverflow: PropTypes.bool,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 Card.defaultProps = {
   stretchVertically: false,
   hideOverflow: true,
-  className: ''
+  className: '',
 };
 
 export default Card;

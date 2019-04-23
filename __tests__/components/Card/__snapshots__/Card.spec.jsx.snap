@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Stretches Vertically 1`] = `
+<Card
+  className=""
+  hideOverflow={true}
+  stretchVertically={true}
+>
+  <styled.div
+    className=""
+    hideOverflow={true}
+    stretchVertically={true}
+  >
+    <StyledComponent
+      className=""
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "jRjYar",
+            "rules": Array [
+              "
+  background: #ffffff;
+  border-radius: 0.5rem;
+  ",
+              [Function],
+              "
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hideOverflow={true}
+      stretchVertically={true}
+    >
+      <div
+        className="sc-bdVaJa jRjYar"
+      >
+        <div>
+          Hello Span
+        </div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Card>
+`;
+
+exports[`Card should renders the Card 1`] = `
+<Card
+  className=""
+  hideOverflow={true}
+  stretchVertically={false}
+>
+  <styled.div
+    className=""
+    hideOverflow={true}
+    stretchVertically={false}
+  >
+    <StyledComponent
+      className=""
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "iLCAh",
+            "rules": Array [
+              "
+  background: #ffffff;
+  border-radius: 0.5rem;
+  ",
+              [Function],
+              "
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      hideOverflow={true}
+      stretchVertically={false}
+    >
+      <div
+        className="sc-bdVaJa iLCAh"
+      >
+        <div>
+          Hello Span
+        </div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Card>
+`;
