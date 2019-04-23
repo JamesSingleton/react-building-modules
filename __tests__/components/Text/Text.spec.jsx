@@ -7,7 +7,21 @@ describe('Text', () => {
     const props = {
       tagName: 'span',
     };
-    const renderedHeading = mount(<Text {...props}>Hello Span</Text>);
-    expect(renderedHeading).toMatchSnapshot();
+    const renderedText = mount(<Text {...props}>Hello Span</Text>);
+    expect(renderedText).toMatchSnapshot();
+  });
+  it('renders a small text component', () => {
+    const props = {
+      size: 'small',
+    };
+    const renderedText = mount(<Text {...props}>Hello Small Span</Text>);
+    expect(renderedText).toMatchSnapshot();
+  });
+  it('renders a tiny text component', () => {
+    const props = {
+      size: 'tiny',
+    };
+    const renderedText = mount(<Text {...props}>Hello Tiny Span</Text>);
+    expect(renderedText).toMatchSnapshot();
   });
 });

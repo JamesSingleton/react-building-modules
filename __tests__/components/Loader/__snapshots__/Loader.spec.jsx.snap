@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders 1`] = `
+<Loader>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "bSrzPW",
+            "rules": Array [
+              "
+  display: inline-block;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa bSrzPW"
+      >
+        <styled.span
+          style={Object {}}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "cBcwPC",
+                  "rules": Array [
+                    "
+  width: ",
+                    [Function],
+                    ";
+  height: ",
+                    [Function],
+                    ";
+  background-color: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  display: inline-block;
+  animation: ",
+                    Keyframes {
+                      "id": "sc-keyframes-ghjfcd",
+                      "inject": [Function],
+                      "name": "ghjfcd",
+                      "rules": Array [
+                        "@-webkit-keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                        "@keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                      ],
+                      "toString": [Function],
+                    },
+                    " 1s infinite ease-in-out both;
+  &:first-child {
+    animation-delay: -0.32s;
+  }
+  &:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={Object {}}
+          >
+            <span
+              className="sc-bwzfXH cBcwPC"
+              style={Object {}}
+            />
+          </StyledComponent>
+        </styled.span>
+        <styled.span
+          style={Object {}}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "cBcwPC",
+                  "rules": Array [
+                    "
+  width: ",
+                    [Function],
+                    ";
+  height: ",
+                    [Function],
+                    ";
+  background-color: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  display: inline-block;
+  animation: ",
+                    Keyframes {
+                      "id": "sc-keyframes-ghjfcd",
+                      "inject": [Function],
+                      "name": "ghjfcd",
+                      "rules": Array [
+                        "@-webkit-keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                        "@keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                      ],
+                      "toString": [Function],
+                    },
+                    " 1s infinite ease-in-out both;
+  &:first-child {
+    animation-delay: -0.32s;
+  }
+  &:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={Object {}}
+          >
+            <span
+              className="sc-bwzfXH cBcwPC"
+              style={Object {}}
+            />
+          </StyledComponent>
+        </styled.span>
+        <styled.span
+          style={Object {}}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "cBcwPC",
+                  "rules": Array [
+                    "
+  width: ",
+                    [Function],
+                    ";
+  height: ",
+                    [Function],
+                    ";
+  background-color: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  display: inline-block;
+  animation: ",
+                    Keyframes {
+                      "id": "sc-keyframes-ghjfcd",
+                      "inject": [Function],
+                      "name": "ghjfcd",
+                      "rules": Array [
+                        "@-webkit-keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                        "@keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                      ],
+                      "toString": [Function],
+                    },
+                    " 1s infinite ease-in-out both;
+  &:first-child {
+    animation-delay: -0.32s;
+  }
+  &:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={Object {}}
+          >
+            <span
+              className="sc-bwzfXH cBcwPC"
+              style={Object {}}
+            />
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Loader>
+`;
+
+exports[`Loader renders a big loader 1`] = `
+<Loader
+  big={true}
+>
+  <styled.div
+    big={true}
+  >
+    <StyledComponent
+      big={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "bSrzPW",
+            "rules": Array [
+              "
+  display: inline-block;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="sc-bdVaJa bSrzPW"
+      >
+        <styled.span
+          big={true}
+          style={Object {}}
+        >
+          <StyledComponent
+            big={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "fndZCM",
+                  "rules": Array [
+                    "
+  width: ",
+                    [Function],
+                    ";
+  height: ",
+                    [Function],
+                    ";
+  background-color: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  display: inline-block;
+  animation: ",
+                    Keyframes {
+                      "id": "sc-keyframes-ghjfcd",
+                      "inject": [Function],
+                      "name": "ghjfcd",
+                      "rules": Array [
+                        "@-webkit-keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                        "@keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                      ],
+                      "toString": [Function],
+                    },
+                    " 1s infinite ease-in-out both;
+  &:first-child {
+    animation-delay: -0.32s;
+  }
+  &:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={Object {}}
+          >
+            <span
+              className="sc-bwzfXH fndZCM"
+              style={Object {}}
+            />
+          </StyledComponent>
+        </styled.span>
+        <styled.span
+          big={true}
+          style={Object {}}
+        >
+          <StyledComponent
+            big={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "fndZCM",
+                  "rules": Array [
+                    "
+  width: ",
+                    [Function],
+                    ";
+  height: ",
+                    [Function],
+                    ";
+  background-color: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  display: inline-block;
+  animation: ",
+                    Keyframes {
+                      "id": "sc-keyframes-ghjfcd",
+                      "inject": [Function],
+                      "name": "ghjfcd",
+                      "rules": Array [
+                        "@-webkit-keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                        "@keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                      ],
+                      "toString": [Function],
+                    },
+                    " 1s infinite ease-in-out both;
+  &:first-child {
+    animation-delay: -0.32s;
+  }
+  &:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={Object {}}
+          >
+            <span
+              className="sc-bwzfXH fndZCM"
+              style={Object {}}
+            />
+          </StyledComponent>
+        </styled.span>
+        <styled.span
+          big={true}
+          style={Object {}}
+        >
+          <StyledComponent
+            big={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "fndZCM",
+                  "rules": Array [
+                    "
+  width: ",
+                    [Function],
+                    ";
+  height: ",
+                    [Function],
+                    ";
+  background-color: ",
+                    [Function],
+                    ";
+  border-radius: 100%;
+  display: inline-block;
+  animation: ",
+                    Keyframes {
+                      "id": "sc-keyframes-ghjfcd",
+                      "inject": [Function],
+                      "name": "ghjfcd",
+                      "rules": Array [
+                        "@-webkit-keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                        "@keyframes ghjfcd{0%,80%,100%{-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);}40%{-webkit-transform:scale(1.0);-ms-transform:scale(1.0);transform:scale(1.0);}}",
+                      ],
+                      "toString": [Function],
+                    },
+                    " 1s infinite ease-in-out both;
+  &:first-child {
+    animation-delay: -0.32s;
+  }
+  &:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            style={Object {}}
+          >
+            <span
+              className="sc-bwzfXH fndZCM"
+              style={Object {}}
+            />
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Loader>
+`;

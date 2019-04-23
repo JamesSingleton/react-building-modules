@@ -1,5 +1,139 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Text renders a small text component 1`] = `
+<Text
+  secondary={false}
+  size="small"
+  tagName="span"
+  weight="thin"
+>
+  <styled.span
+    as="span"
+    secondary={false}
+    size="small"
+    weight="thin"
+  >
+    <StyledComponent
+      as="span"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "cQhRnj",
+            "rules": Array [
+              "
+font-size: ",
+              [Function],
+              "
+line-height: ",
+              [Function],
+              "
+  & > a {
+    color: #3899EC;
+    text-decoration: none;
+    &:hover {
+      color: #4EB7F5;
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      secondary={false}
+      size="small"
+      weight="thin"
+    >
+      <span
+        className="sc-bdVaJa cQhRnj"
+        size="small"
+      >
+        Hello Small Span
+      </span>
+    </StyledComponent>
+  </styled.span>
+</Text>
+`;
+
+exports[`Text renders a tiny text component 1`] = `
+<Text
+  secondary={false}
+  size="tiny"
+  tagName="span"
+  weight="thin"
+>
+  <styled.span
+    as="span"
+    secondary={false}
+    size="tiny"
+    weight="thin"
+  >
+    <StyledComponent
+      as="span"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "hlDebU",
+            "rules": Array [
+              "
+font-size: ",
+              [Function],
+              "
+line-height: ",
+              [Function],
+              "
+  & > a {
+    color: #3899EC;
+    text-decoration: none;
+    &:hover {
+      color: #4EB7F5;
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      secondary={false}
+      size="tiny"
+      weight="thin"
+    >
+      <span
+        className="sc-bdVaJa hlDebU"
+        size="tiny"
+      >
+        Hello Tiny Span
+      </span>
+    </StyledComponent>
+  </styled.span>
+</Text>
+`;
+
 exports[`Text should render as a span 1`] = `
 <Text
   secondary={false}
