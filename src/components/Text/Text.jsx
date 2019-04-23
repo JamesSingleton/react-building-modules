@@ -40,7 +40,7 @@ const Text = ({
 
 Text.propTypes = {
   tagName: PropTypes.string,
-  children: PropTypes.oneOf([
+  children: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.node,
     PropTypes.element,

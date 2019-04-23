@@ -4,6 +4,6 @@ import Button from '../../../src/components/Button';
 
 describe('Button', () => {
   it('should render as a component', () => {
-    mount(<Button />);
+    mount(<Button>Hello World</Button>);
   });
 });

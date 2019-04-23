@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render as a span 1`] = `
+<Text
+  secondary={false}
+  size="medium"
+  tagName="span"
+  weight="thin"
+>
+  <styled.span
+    as="span"
+    secondary={false}
+    size="medium"
+    weight="thin"
+  >
+    <StyledComponent
+      as="span"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "jbUwpR",
+            "rules": Array [
+              "
+font-size: ",
+              [Function],
+              "
+  & > a {
+    color: #3899EC;
+    text-decoration: none;
+    &:hover {
+      color: #4EB7F5;
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      secondary={false}
+      size="medium"
+      weight="thin"
+    >
+      <span
+        className="sc-bdVaJa jbUwpR"
+        size="medium"
+      >
+        Hello Span
+      </span>
+    </StyledComponent>
+  </styled.span>
+</Text>
+`;
