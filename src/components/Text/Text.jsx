@@ -8,12 +8,12 @@ Text.propTypes = {
   children: PropTypes.oneOf([
     PropTypes.string,
     PropTypes.node,
-    PropTypes.element
-  ]).isRequired
+    PropTypes.element,
+  ]).isRequired,
 };
 
 Text.defaultProps = {
-  tagName: 'span'
+  tagName: 'span',
 };
 
 export default Text;

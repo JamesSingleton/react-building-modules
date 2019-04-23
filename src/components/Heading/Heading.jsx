@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const APPEARANCES = {
   H1: 'H1',
@@ -11,65 +11,34 @@ export const APPEARANCES = {
   H6: 'H6',
 };
 
-// eslint-disable-next-line no-unused-vars
-const StyledH1 = styled.h1`
-  font-size: 2rem;
-  line-height: 3rem;
-  color: #162d3d;
-`;
-
-const StyledH2 = styled.h2`
-  font-size: 1.75rem;
-  line-height: 2rem;
-  color: #162d3d;
-`;
-
-const StyledH3 = styled.h3`
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  color: #162d3d;
-`;
-
-const StyledH4 = styled.h4`
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  color: #162d3d;
-`;
-
-const StyledH5 = styled.h5`
-  font-size: 0.75rem;
-  line-height: 1.5rem;
-  color: #32536a;
+const StyledHeading = styled.h1`
+font-size: ${(props) => {
+    if (props.as.toLowerCase() === 'h2') return '1.75rem';
+    if (props.as.toLowerCase() === 'h3') return '1.25rem';
+    if (props.as.toLowerCase() === 'h4') return '1.125rem';
+    if (props.as.toLowerCase() === 'h5') return '0.75rem';
+    if (props.as.toLowerCase() === 'h6') return '0.625rem';
+    return '2rem';
+  }}
+line-height: ${(props) => {
+    if (props.as.toLowerCase() === 'h2') return '2rem';
+    if (props.as.toLowerCase() === 'h3') return '1.5rem';
+    if (props.as.toLowerCase() === 'h4') return '1.5rem';
+    if (props.as.toLowerCase() === 'h5') return '1.5rem';
+    if (props.as.toLowerCase() === 'h6') return '1.125rem';
+    return '3rem';
+  }};
+color: #162d3d;
+${props => (props.as.toLowerCase() === 'h5' || props.as.toLowerCase() === 'h6')
+  && css`
   text-transform: uppercase;
   letter-spacing: 1px;
-`;
-
-const StyledH6 = styled.h6`
-  font-size: 0.625rem;
-  line-height: 1.125rem;
-  color: #162d3d;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  `}
 `;
 
 const Heading = ({ appearance, children, ...rest }) => {
   const { dataHook, ...headingProps } = rest;
-  if (appearance.toLowerCase() === 'h2') {
-    return <StyledH2 {...headingProps}>{children}</StyledH2>;
-  }
-  if (appearance.toLowerCase() === 'h3') {
-    return <StyledH3 {...headingProps}>{children}</StyledH3>;
-  }
-  if (appearance.toLowerCase() === 'h4') {
-    return <StyledH4 {...headingProps}>{children}</StyledH4>;
-  }
-  if (appearance.toLowerCase() === 'h5') {
-    return <StyledH5 {...headingProps}>{children}</StyledH5>;
-  }
-  if (appearance.toLowerCase() === 'h6') {
-    return <StyledH6 {...headingProps}>{children}</StyledH6>;
-  }
-  return <StyledH1 {...headingProps}>{children}</StyledH1>;
+  return <StyledHeading as={appearance} {...headingProps}>{children}</StyledHeading>;
 };
 
 Heading.propTypes = {
