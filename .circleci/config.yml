@@ -18,6 +18,7 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
       # no tests, so lets just lint and check the build works
+      - run: npm run test
       - run: npm run lint
       - run: npm run build-storybook
       - persist_to_workspace:
