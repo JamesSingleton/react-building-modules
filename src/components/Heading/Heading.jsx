@@ -8,7 +8,7 @@ export const APPEARANCES = {
   H3: 'H3',
   H4: 'H4',
   H5: 'H5',
-  H6: 'H6'
+  H6: 'H6',
 };
 
 // eslint-disable-next-line no-unused-vars
@@ -76,13 +76,13 @@ Heading.propTypes = {
   children: PropTypes.oneOf([
     PropTypes.string,
     PropTypes.node,
-    PropTypes.element
+    PropTypes.element,
   ]).isRequired,
-  appearance: PropTypes.oneOf(Object.keys(APPEARANCES))
+  appearance: PropTypes.oneOf(Object.keys(APPEARANCES)),
 };
 
 Heading.defaultProps = {
-  appearance: APPEARANCES.H1
+  appearance: APPEARANCES.H1,
 };
 
 export default Heading;
