@@ -1,20 +1,49 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: "\U0001F680 Feature Request"
+about: "I have a suggestion (and may want to implement it \U0001F642)!"
 title: ''
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+<!--
+  Thanks for reporting an issue 😄  to `react-building-blocks`!
+  Before you submit, please search open / closed issues before submitting, since someone else might 
+  have asked the same thing before.
+  -->
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+# 🚀  Feature Request
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+## 🔦 Scope
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+<!---
+  Tell us what is the scope of the feature you'd like to request. Is it about an existing component?
+  It is a new component? Behavior change?
+  -->
+
+...
+
+## 💁 Explanation
+
+<!---
+  Tell us how the new feature would work.
+  -->
+
+...
+
+## 🐾 Possible solution <!-- optional -->
+
+<!---
+  Suggest ideas on how to implement the addition or change
+  -->
+
+...
+
+## 👀 Severity
+
+<!---
+  Try to reflect how severe the issue is in general. Pick the most relevant one.
+  -->
+
+- Critical / Major / Low
