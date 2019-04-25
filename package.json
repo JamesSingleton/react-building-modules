@@ -61,7 +61,7 @@
     "@storybook/theming": "5.0.10",
     "amex-jest-preset-react": "5.0.1",
     "babel-loader": "8.0.5",
-    "babel-preset-amex": "2.0.0",
+    "babel-preset-amex": "2.1.0",
     "enzyme": "3.9.0",
     "enzyme-to-json": "3.3.5",
     "eslint": "5.16.0",
