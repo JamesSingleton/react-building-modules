@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar should render a large avatar 1`] = `
+<Avatar
+  color="blue"
+  name="JS"
+  size="large"
+>
+  <styled.div
+    color="blue"
+    size="large"
+  >
+    <StyledComponent
+      color="blue"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "jIwExw",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  border-radius: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      size="large"
+    >
+      <div
+        className="sc-bdVaJa jIwExw"
+        color="blue"
+        size="large"
+      >
+        <styled.div
+          size="large"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "cIBpAP",
+                  "rules": Array [
+                    "
+  color: #ffffff;
+  font-size: ",
+                    [Function],
+                    ";
+  line-height: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            size="large"
+          >
+            <div
+              className="sc-bwzfXH cIBpAP"
+              size="large"
+            >
+              JS
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render a medium avatar 1`] = `
+<Avatar
+  color="green"
+  name="JS"
+  size="medium"
+>
+  <styled.div
+    color="green"
+    size="medium"
+  >
+    <StyledComponent
+      color="green"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "DIYjn",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  border-radius: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      size="medium"
+    >
+      <div
+        className="sc-bdVaJa DIYjn"
+        color="green"
+        size="medium"
+      >
+        <styled.div
+          size="medium"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "gHGGjA",
+                  "rules": Array [
+                    "
+  color: #ffffff;
+  font-size: ",
+                    [Function],
+                    ";
+  line-height: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            size="medium"
+          >
+            <div
+              className="sc-bwzfXH gHGGjA"
+              size="medium"
+            >
+              JS
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render a orange avatar 1`] = `
+<Avatar
+  color="orange"
+  name="JS"
+  size="medium"
+>
+  <styled.div
+    color="orange"
+    size="medium"
+  >
+    <StyledComponent
+      color="orange"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "jBxEWU",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  border-radius: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      size="medium"
+    >
+      <div
+        className="sc-bdVaJa jBxEWU"
+        color="orange"
+        size="medium"
+      >
+        <styled.div
+          size="medium"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "gHGGjA",
+                  "rules": Array [
+                    "
+  color: #ffffff;
+  font-size: ",
+                    [Function],
+                    ";
+  line-height: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            size="medium"
+          >
+            <div
+              className="sc-bwzfXH gHGGjA"
+              size="medium"
+            >
+              JS
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render a purple avatar 1`] = `
+<Avatar
+  color="purple"
+  name="JS"
+  size="medium"
+>
+  <styled.div
+    color="purple"
+    size="medium"
+  >
+    <StyledComponent
+      color="purple"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "bZnmKC",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  border-radius: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      size="medium"
+    >
+      <div
+        className="sc-bdVaJa bZnmKC"
+        color="purple"
+        size="medium"
+      >
+        <styled.div
+          size="medium"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "gHGGjA",
+                  "rules": Array [
+                    "
+  color: #ffffff;
+  font-size: ",
+                    [Function],
+                    ";
+  line-height: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            size="medium"
+          >
+            <div
+              className="sc-bwzfXH gHGGjA"
+              size="medium"
+            >
+              JS
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;
+
+exports[`Avatar should render a small avatar 1`] = `
+<Avatar
+  color="red"
+  name="JS"
+  size="small"
+>
+  <styled.div
+    color="red"
+    size="small"
+  >
+    <StyledComponent
+      color="red"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "jBnoGy",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  border-radius: ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      size="small"
+    >
+      <div
+        className="sc-bdVaJa jBnoGy"
+        color="red"
+        size="small"
+      >
+        <styled.div
+          size="small"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "fAPMJx",
+                  "rules": Array [
+                    "
+  color: #ffffff;
+  font-size: ",
+                    [Function],
+                    ";
+  line-height: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            size="small"
+          >
+            <div
+              className="sc-bwzfXH fAPMJx"
+              size="small"
+            >
+              JS
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Avatar>
+`;

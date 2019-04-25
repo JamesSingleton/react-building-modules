@@ -21,8 +21,15 @@ const StyledAvatar = styled.div`
     if (props.size.toLowerCase() === 'small') return '1.3125rem';
     return '1.875rem';
   }};
-  background-image: linear-gradient(225deg,#389aec,#4ebcf5);
+  background-color: ${(props) => {
+    if (props.color.toLowerCase() === 'green') return '#43a34c';
+    if (props.color.toLowerCase() === 'red') return '#F25C5E';
+    if (props.color.toLowerCase() === 'orange') return '#FDB02B';
+    if (props.color.toLowerCase() === 'purple') return '#9B61B3';
+    return '#006fcf';
+  }};
 `;
+// linear-gradient(225deg,#389aec,#4ebcf5)
 
 const StyledName = styled.div`
   color: #ffffff;
@@ -51,11 +58,12 @@ Avatar.propTypes = {
     'medium',
     'large',
   ]),
-  color: PropTypes.string.isRequired,
+  color: PropTypes.oneOf(['blue', 'green', 'purple', 'red', 'orange']),
 };
 
 Avatar.defaultProps = {
   size: 'medium',
+  color: 'blue',
 };
 
 export default Avatar;

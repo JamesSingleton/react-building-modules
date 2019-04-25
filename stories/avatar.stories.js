@@ -6,8 +6,9 @@ import Avatar from '../src/components/Avatar';
 storiesOf('Avatar')
   .add('with text', () => (
     <div style={{ background: '#F0F4F7', padding: 30 }}>
-      <Avatar size="small" color="blue" name="JS"/>
-      <Avatar size="medium" color="blue" name="JS"/>
+      <Avatar size="small" color="red" name="JS"/>
+      <Avatar size="medium" color="green" name="JS"/>
       <Avatar size="large" color="blue" name="JS"/>
+      <Avatar size="large" color="purple" name="JS"/>
     </div>
   ))
