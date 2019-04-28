@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/JamesSingleton/react-building-blocks.svg?style=svg)](https://circleci.com/gh/JamesSingleton/react-building-blocks)
 [![CodeFactor](https://www.codefactor.io/repository/github/jamessingleton/react-building-blocks/badge)](https://www.codefactor.io/repository/github/jamessingleton/react-building-blocks)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Design__Pattern.svg?style=social)](https://twitter.com/Design__Pattern)
+![MIT License][license]
 
 ## Built With
 
@@ -26,3 +26,5 @@ See also the list of [contributors](https://github.com/JamesSingleton/react-buil
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+[license]: https://flat.badgen.net/badge/license/MIT/blue
