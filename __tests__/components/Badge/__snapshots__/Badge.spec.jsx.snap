@@ -1,0 +1,1279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders a medium Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="medium"
+  skin="general"
+  text="Hello World"
+  type="solid"
+>
+  <styled.div
+    onClick={[Function]}
+    size="medium"
+    skin="general"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="solid"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "jaOFVS",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="medium"
+      skin="general"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="solid"
+    >
+      <div
+        className="sc-bdVaJa jaOFVS"
+        onClick={[Function]}
+        size="medium"
+        type="solid"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge renders a small Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="small"
+  skin="general"
+  text="Hello World"
+  type="solid"
+>
+  <styled.div
+    onClick={[Function]}
+    size="small"
+    skin="general"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="solid"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "htjlZg",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="small"
+      skin="general"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="solid"
+    >
+      <div
+        className="sc-bdVaJa htjlZg"
+        onClick={[Function]}
+        size="small"
+        type="solid"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge renders an outlined Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="medium"
+  skin="general"
+  text="Hello World"
+  type="outlined"
+>
+  <styled.div
+    onClick={[Function]}
+    size="medium"
+    skin="general"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="outlined"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "pHZjz",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="medium"
+      skin="general"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="outlined"
+    >
+      <div
+        className="sc-bdVaJa pHZjz"
+        onClick={[Function]}
+        size="medium"
+        type="outlined"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge renders an outlined danger Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="medium"
+  skin="danger"
+  text="Hello World"
+  type="outlined"
+>
+  <styled.div
+    onClick={[Function]}
+    size="medium"
+    skin="danger"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="outlined"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "AKkzl",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="medium"
+      skin="danger"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="outlined"
+    >
+      <div
+        className="sc-bdVaJa AKkzl"
+        onClick={[Function]}
+        size="medium"
+        type="outlined"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge renders an outlined premium Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="medium"
+  skin="premium"
+  text="Hello World"
+  type="outlined"
+>
+  <styled.div
+    onClick={[Function]}
+    size="medium"
+    skin="premium"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="outlined"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "gDRSUc",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="medium"
+      skin="premium"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="outlined"
+    >
+      <div
+        className="sc-bdVaJa gDRSUc"
+        onClick={[Function]}
+        size="medium"
+        type="outlined"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge renders an outlined standard Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="medium"
+  skin="standard"
+  text="Hello World"
+  type="outlined"
+>
+  <styled.div
+    onClick={[Function]}
+    size="medium"
+    skin="standard"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="outlined"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "hhhcd",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="medium"
+      skin="standard"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="outlined"
+    >
+      <div
+        className="sc-bdVaJa hhhcd"
+        onClick={[Function]}
+        size="medium"
+        type="outlined"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge renders an outlined success Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="medium"
+  skin="success"
+  text="Hello World"
+  type="outlined"
+>
+  <styled.div
+    onClick={[Function]}
+    size="medium"
+    skin="success"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="outlined"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "eBYCJb",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="medium"
+      skin="success"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="outlined"
+    >
+      <div
+        className="sc-bdVaJa eBYCJb"
+        onClick={[Function]}
+        size="medium"
+        type="outlined"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge renders an outlined warning Badge component 1`] = `
+<Badge
+  onClick={[Function]}
+  size="medium"
+  skin="warning"
+  text="Hello World"
+  type="outlined"
+>
+  <styled.div
+    onClick={[Function]}
+    size="medium"
+    skin="warning"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="outlined"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "fzyIOB",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      size="medium"
+      skin="warning"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="outlined"
+    >
+      <div
+        className="sc-bdVaJa fzyIOB"
+        onClick={[Function]}
+        size="medium"
+        type="outlined"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
+
+exports[`Badge should render without crashing 1`] = `
+<Badge
+  onClick={[MockFunction]}
+  size="medium"
+  skin="general"
+  text="Hello World"
+  type="solid"
+>
+  <styled.div
+    onClick={[MockFunction]}
+    size="medium"
+    skin="general"
+    theme={
+      Object {
+        "danger": "#F25C5E",
+        "general": "#32536A",
+        "premium": "#9B61B3",
+        "standard": "#006fcf",
+        "success": "#43a34c",
+        "warning": "#FDB02B",
+      }
+    }
+    type="solid"
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "jaOFVS",
+            "rules": Array [
+              "
+  cursor: default;
+  border: 1px solid;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  line-height: 1;
+  background-color: ",
+              [Function],
+              ";
+  padding: ",
+              [Function],
+              "
+  color: #fff;
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "defaultProps": Object {
+            "theme": Object {
+              "danger": "#F25C5E",
+              "general": "#32536A",
+              "premium": "#9B61B3",
+              "standard": "#006fcf",
+              "success": "#43a34c",
+              "warning": "#FDB02B",
+            },
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[MockFunction]}
+      size="medium"
+      skin="general"
+      theme={
+        Object {
+          "danger": "#F25C5E",
+          "general": "#32536A",
+          "premium": "#9B61B3",
+          "standard": "#006fcf",
+          "success": "#43a34c",
+          "warning": "#FDB02B",
+        }
+      }
+      type="solid"
+    >
+      <div
+        className="sc-bdVaJa jaOFVS"
+        onClick={[MockFunction]}
+        size="medium"
+        type="solid"
+      >
+        <styled.span>
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": true,
+                  "lastClassName": "fySOme",
+                  "rules": Array [
+                    "
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.0625rem;
+  text-transform: uppercase;
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <span
+              className="sc-bwzfXH fySOme"
+            >
+              Hello World
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Badge>
+`;
