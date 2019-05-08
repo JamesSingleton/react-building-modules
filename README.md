@@ -5,6 +5,7 @@
  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/JamesSingleton/react-building-blocks/blob/master/LICENSE)
 [![Known Vulnerabilities](https://snyk.io/test/github/JamesSingleton/react-building-blocks/badge.svg?targetFile=package.json)](https://snyk.io/test/github/JamesSingleton/react-building-blocks?targetFile=package.json)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/JamesSingleton/react-building-blocks/issues)
+![GitHub last commit](https://img.shields.io/github/last-commit/JamesSingleton/react-building-blocks.svg)
 
 React Building Blocks is a design system comprised of modern, responsive, living components.
 
