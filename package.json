@@ -79,6 +79,6 @@
     "rollup-plugin-babel": "4.3.2",
     "rollup-plugin-commonjs": "9.3.4",
     "rollup-plugin-node-resolve": "4.2.4",
-    "yargs": "13.2.2"
+    "yargs": "13.2.4"
   }
 }
