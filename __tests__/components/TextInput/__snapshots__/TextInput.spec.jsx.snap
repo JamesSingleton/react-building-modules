@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders a large text input component 1`] = `
+<styled.input
+  className="form-control input-block input-lg"
+  disabled={false}
+  id="input2"
+  name=""
+  onChange={[MockFunction]}
+  placeholder="Placeholder"
+  required={false}
+  type="text"
+  value="Input 2"
+/>
+`;
+
+exports[`Text renders a small text input component 1`] = `
+<styled.input
+  className="form-control input-block input-sm"
+  disabled={false}
+  id="input1"
+  name=""
+  onChange={[MockFunction]}
+  placeholder="Placeholder"
+  required={false}
+  type="text"
+  value="Input 1"
+/>
+`;
