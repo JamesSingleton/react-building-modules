@@ -59,7 +59,7 @@
     "snyk": "^1.189.0"
   },
   "devDependencies": {
-    "@babel/core": "7.4.5",
+    "@babel/core": "7.5.0",
     "@commitlint/cli": "8.0.0",
     "@commitlint/config-conventional": "8.0.0",
     "@storybook/addon-actions": "5.1.9",
