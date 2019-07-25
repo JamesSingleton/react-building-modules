@@ -6,7 +6,11 @@ const Content = ({ children }) => (
 );
 
 Content.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.node,
+    PropTypes.element,
+  ]).isRequired,
 };
 
 export default Content;

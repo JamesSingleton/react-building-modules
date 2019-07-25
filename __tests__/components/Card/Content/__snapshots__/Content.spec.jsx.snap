@@ -2,6 +2,8 @@
 
 exports[`Content should render 1`] = `
 <Content>
-  <div />
+  <div>
+    Hello World
+  </div>
 </Content>
 `;
