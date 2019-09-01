@@ -74,7 +74,7 @@
     "enzyme-to-json": "3.4.0",
     "eslint": "5.16.0",
     "eslint-config-amex": "10.1.0",
-    "husky": "^3.0.5",
+    "husky": "3.0.5",
     "jest": "24.9.0",
     "lint-staged": "9.2.5",
     "rimraf": "3.0.0",
@@ -82,7 +82,7 @@
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
-    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-terser": "5.1.1",
     "yargs": "14.0.0"
   },
   "snyk": true
