@@ -1,13 +1,8 @@
-/docs
-/website
 /test-results
 /.jest-cache
 /stories
 /.storybook
 /__tests__
 renovate.json
-.dockerignore
-Dockerfile
-docker-compose.yml
 .github
 .circleci

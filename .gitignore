@@ -6,8 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
+# Build
+build/
 
 # Dependency directories
 node_modules/

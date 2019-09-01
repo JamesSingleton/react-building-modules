@@ -2,11 +2,11 @@
   "name": "react-building-blocks",
   "version": "1.0.0",
   "description": "Components made with React",
-  "main": "dist/bundle.js",
+  "main": "build/bundle.js",
   "scripts": {
     "build-storybook": "build-storybook",
     "build": "npm run clean && rollup -c",
-    "clean": "rimraf dist",
+    "clean": "rimraf build",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",
@@ -82,6 +82,7 @@
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-terser": "^5.1.1",
     "yargs": "14.0.0"
   },
   "snyk": true
