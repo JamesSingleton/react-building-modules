@@ -87,4 +87,12 @@ describe('Badge', () => {
     const renderedBadge = mount(<Badge {...props} />);
     expect(renderedBadge).toMatchSnapshot();
   });
+  it('returns undefined for onClick if not provided', () => {
+    const props = {
+      text: 'Hello World',
+    };
+    const renderedBadge = mount(<Badge {...props} />);
+
+    expect(renderedBadge.simulate('click')).toMatchSnapshot();
+  });
 });
