@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import noop from 'lodash/noop';
 
 const SIZES = {
   small: 'small',
@@ -76,10 +75,7 @@ const StyledText = styled.span`
 `;
 
 const Badge = ({
-  text,
-  onClick,
-  size,
-  ...rest
+  text, onClick, size, ...rest
 }) => (
   <StyledBadge onClick={onClick} size={size} {...rest}>
     <StyledText>{text}</StyledText>
@@ -95,7 +91,7 @@ Badge.propTypes = {
 };
 
 Badge.defaultProps = {
-  onClick: noop,
+  onClick: () => undefined,
   size: SIZES.medium,
   type: TYPE.solid,
   skin: SKIN.general,
