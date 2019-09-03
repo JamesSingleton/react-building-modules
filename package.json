@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JamesSingleton/react-building-blocks.git"
+    "url": "git+https://github.com/JamesSingleton/react-building-modules.git"
   },
   "keywords": [
     "react components",
@@ -40,14 +40,16 @@
     "component",
     "components",
     "react",
-    "react building blocks"
+    "react building blocks",
+    "react modules",
+    "react building modules"
   ],
   "author": "James Singleton (https://twitter.com/Design__Pattern)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JamesSingleton/react-building-blocks/issues"
+    "url": "https://github.com/JamesSingleton/react-building-modules/issues"
   },
-  "homepage": "https://github.com/JamesSingleton/react-building-blocks#readme",
+  "homepage": "https://github.com/JamesSingleton/react-building-modules#readme",
   "dependencies": {
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
