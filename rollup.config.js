@@ -4,12 +4,17 @@ import commonjs from 'rollup-plugin-commonjs';
 import { terser } from 'rollup-plugin-terser';
 import pkg from './package.json';
 
+const deps = Object.keys(pkg.dependencies || {});
+const peerDeps = Object.keys(pkg.peerDependencies || {});
+const defaultExternal = deps.concat(peerDeps);
+
 export default {
   input: 'src/index.js',
   output: {
     file: pkg.main,
     format: 'cjs',
   },
+  external: defaultExternal,
   plugins: [
     resolve({
       extensions: ['.mjs', '.js', '.jsx', '.json'],
@@ -18,9 +23,6 @@ export default {
     terser(),
     commonjs({
       include: 'node_modules/**',
-      // left-hand side can be an absolute path, a path
-      // relative to the current directory, or the name
-      // of a module in node_modules
       namedExports: {
         'node_modules/react/index.js': [
           'cloneElement',
