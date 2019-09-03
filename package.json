@@ -1,5 +1,5 @@
 {
-  "name": "react-building-blocks",
+  "name": "react-building-modules",
   "version": "0.0.1",
   "description": "Components made with React",
   "main": "build/bundle.js",
