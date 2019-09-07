@@ -1,6 +1,2 @@
 # Disable eslint for stories
 /stories
-
-# Disable eslint for Docusaurus
-/website
-/docs

@@ -1,9 +1,4 @@
-/test-results
-/.jest-cache
-/stories
-/.storybook
-/__tests__
-renovate.json
-.github
-.circleci
-src
+# blacklist all
+**
+# include whitelist
+!build/**
