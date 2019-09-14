@@ -8,7 +8,7 @@ storiesOf('Button')
     <Button onClick={action('clicked')}>Hello Button</Button>
   ))
   .add('with loading', () => (
-    <Button onClick={action('clicked')} loading>
+    <Button onClick={action('clicked')} loading={true}>
       Loading
     </Button>
   ));

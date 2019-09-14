@@ -5,7 +5,7 @@ import Divider from '../Divider';
 import Heading from '../../Heading';
 import Text from '../../Text';
 
-const isString = a => typeof a === 'string';
+const isString = (a) => typeof a === 'string';
 
 const HeaderWrapper = styled.div`
   display: flex;

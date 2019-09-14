@@ -43,7 +43,7 @@ const StyledBadge = styled.div`
     return '0.3125rem 0.75rem';
   }}
   color: #fff;
-  ${props => props.type === TYPE.outlined
+  ${(props) => props.type === TYPE.outlined
     && css`
       background-color: #fff;
       color: ${() => {
