@@ -1,2 +1,2 @@
 # Disable eslint for stories
-/stories
+/stories/*

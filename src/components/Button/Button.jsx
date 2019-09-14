@@ -5,7 +5,7 @@ import Loader from '../Loader';
 
 const StyledButton = styled.button`
   border-radius: 5px;
-  background-color: ${props => (props.secondary ? '#F7A072' : '#006fcf')};
+  background-color: ${(props) => (props.secondary ? '#F7A072' : '#006fcf')};
   color: #fff;
   padding: 10px 15px;
   font-size: ${(props) => {
@@ -16,8 +16,8 @@ const StyledButton = styled.button`
   border: none;
   cursor: pointer;
   margin: 15px;
-  border: 2px solid ${props => (props.secondary ? '#F7A072' : '#006fcf')};
-  ${props => props.inverse
+  border: 2px solid ${(props) => (props.secondary ? '#F7A072' : '#006fcf')};
+  ${(props) => props.inverse
     && css`
       background-color: #fff;
       color: #006fcf;

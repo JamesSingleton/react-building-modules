@@ -29,7 +29,7 @@ line-height: ${(props) => {
     return '3rem';
   }};
 color: #162d3d;
-${props => (props.as === 'h5' || props.as === 'h6')
+${(props) => (props.as === 'h5' || props.as === 'h6')
   && css`
   text-transform: uppercase;
   letter-spacing: 1px;

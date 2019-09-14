@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import Card from '../src/components/Card';
-import Header from '../src/components/Card/Header'
+import Header from '../src/components/Card/Header';
 
 storiesOf('Card')
   .add('with text', () => (
@@ -21,4 +21,4 @@ storiesOf('Card')
     <div style={{ background: '#F0F4F7', padding: 30 }}>
       <Card onClick={action('clicked')} className="custom-class">Custom Class Name</Card>
     </div>
-  ))
+  ));

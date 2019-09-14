@@ -14,9 +14,9 @@ const StyledDotsLoader = styled.div`
 `;
 
 const Dot = styled.span`
-  width: ${props => (props.big ? '20px' : '12px')};
-  height: ${props => (props.big ? '20px' : '12px')};
-  background-color: ${props => (props.white ? '#FFF' : '#000')};
+  width: ${(props) => (props.big ? '20px' : '12px')};
+  height: ${(props) => (props.big ? '20px' : '12px')};
+  background-color: ${(props) => (props.white ? '#FFF' : '#000')};
   border-radius: 100%;
   display: inline-block;
   animation: ${Bounce} 1s infinite ease-in-out both;
@@ -28,7 +28,7 @@ const Dot = styled.span`
   }
 `;
 
-const Loader = props => (
+const Loader = (props) => (
   <StyledDotsLoader {...props}>
     <Dot {...props} style={{}} />
     <Dot {...props} style={{}} />

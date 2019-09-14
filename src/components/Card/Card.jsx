@@ -5,12 +5,12 @@ import styled, { css } from 'styled-components';
 const StyledCard = styled.div`
   background: #ffffff;
   border-radius: 0.5rem;
-  ${props => props.stretchVertically
+  ${(props) => props.stretchVertically
     && css`
       height: 100%;
       flex-grow: 1;
     `}
-  ${props => props.hideOverflow
+  ${(props) => props.hideOverflow
     && css`
       overflow: hidden;
     `}

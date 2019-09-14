@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import Heading from '../src/components/Heading'
+import Heading from '../src/components/Heading';
 
 storiesOf('Heading')
   .add('Heading', () => (
@@ -13,4 +13,4 @@ storiesOf('Heading')
       <Heading appearance="H5">H5 Heading</Heading>
       <Heading appearance="H6">H6 Heading</Heading>
     </div>
-  ))
+  ));
