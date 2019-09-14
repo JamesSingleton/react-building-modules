@@ -9,9 +9,9 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
       - run: npm i
       - save_cache:
           paths:
@@ -24,3 +24,21 @@ jobs:
       - persist_to_workspace:
           root: ~/repo
           paths: .
+  release:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - run: npm install
+      - run: npm run build
+      - run: npx semantic-release
+
+workflows:
+  version: 2
+  test_and_release:
+    # Run the test jobs first, then the release only when all the test jobs are successful
+    jobs:
+      - build
+      - release:
+          requires:
+            - build
