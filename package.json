@@ -61,6 +61,11 @@
     "@babel/core": "7.6.0",
     "@commitlint/cli": "8.1.0",
     "@commitlint/config-conventional": "8.1.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.3.0",
+    "@semantic-release/git": "^7.0.16",
+    "@semantic-release/npm": "^5.1.15",
+    "@semantic-release/release-notes-generator": "^7.3.0",
     "@storybook/addon-actions": "5.2.0",
     "@storybook/addon-links": "5.2.0",
     "@storybook/addons": "5.2.0",
@@ -91,5 +96,15 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
-  "snyk": true
+  "snyk": true,
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branch": "master"
+  }
 }
