@@ -64,7 +64,7 @@
     "@semantic-release/changelog": "3.0.5",
     "@semantic-release/commit-analyzer": "6.3.2",
     "@semantic-release/git": "7.0.17",
-    "@semantic-release/npm": "5.3.2",
+    "@semantic-release/npm": "5.3.3",
     "@semantic-release/release-notes-generator": "7.3.2",
     "@storybook/addon-actions": "5.2.5",
     "@storybook/addon-links": "5.2.5",
@@ -89,7 +89,7 @@
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-terser": "5.1.2",
-    "semantic-release": "15.13.29",
+    "semantic-release": "15.13.30",
     "yargs": "14.2.0"
   },
   "peerDependencies": {
