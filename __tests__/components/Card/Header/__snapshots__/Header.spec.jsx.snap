@@ -19,7 +19,7 @@ exports[`Header has a none string title 1`] = `
             "attrs": Array [],
             "componentStyle": ComponentStyle {
               "componentId": "sc-bxivhb",
-              "isStatic": true,
+              "isStatic": false,
               "lastClassName": "kkPzXY",
               "rules": Array [
                 "
@@ -69,7 +69,7 @@ exports[`Header has a none string title 1`] = `
               "attrs": Array [],
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": true,
+                "isStatic": false,
                 "lastClassName": "ljuHUZ",
                 "rules": Array [
                   "
@@ -115,7 +115,7 @@ exports[`Header has a title and subtitle 1`] = `
             "attrs": Array [],
             "componentStyle": ComponentStyle {
               "componentId": "sc-bxivhb",
-              "isStatic": true,
+              "isStatic": false,
               "lastClassName": "kkPzXY",
               "rules": Array [
                 "
@@ -272,7 +272,7 @@ line-height: ",
               "attrs": Array [],
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": true,
+                "isStatic": false,
                 "lastClassName": "ljuHUZ",
                 "rules": Array [
                   "
@@ -318,7 +318,7 @@ exports[`Header has a title and subtitle and suffix 1`] = `
             "attrs": Array [],
             "componentStyle": ComponentStyle {
               "componentId": "sc-bxivhb",
-              "isStatic": true,
+              "isStatic": false,
               "lastClassName": "kkPzXY",
               "rules": Array [
                 "
@@ -471,7 +471,7 @@ line-height: ",
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
                     "componentId": "sc-ifAKCX",
-                    "isStatic": true,
+                    "isStatic": false,
                     "lastClassName": "iNNKCX",
                     "rules": Array [
                       "
@@ -512,7 +512,7 @@ line-height: ",
               "attrs": Array [],
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": true,
+                "isStatic": false,
                 "lastClassName": "ljuHUZ",
                 "rules": Array [
                   "
@@ -558,7 +558,7 @@ exports[`Header should render 1`] = `
             "attrs": Array [],
             "componentStyle": ComponentStyle {
               "componentId": "sc-bxivhb",
-              "isStatic": true,
+              "isStatic": false,
               "lastClassName": "kkPzXY",
               "rules": Array [
                 "
@@ -653,7 +653,7 @@ color: #162d3d;
               "attrs": Array [],
               "componentStyle": ComponentStyle {
                 "componentId": "sc-bdVaJa",
-                "isStatic": true,
+                "isStatic": false,
                 "lastClassName": "ljuHUZ",
                 "rules": Array [
                   "

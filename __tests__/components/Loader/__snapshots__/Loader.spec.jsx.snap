@@ -10,7 +10,7 @@ exports[`Loader renders 1`] = `
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "bSrzPW",
             "rules": Array [
               "
@@ -249,7 +249,7 @@ exports[`Loader renders a big loader 1`] = `
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "bSrzPW",
             "rules": Array [
               "

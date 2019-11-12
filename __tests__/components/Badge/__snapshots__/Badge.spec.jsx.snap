@@ -106,7 +106,7 @@ exports[`Badge renders a medium Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -248,7 +248,7 @@ exports[`Badge renders a small Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -390,7 +390,7 @@ exports[`Badge renders an outlined Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -532,7 +532,7 @@ exports[`Badge renders an outlined danger Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -674,7 +674,7 @@ exports[`Badge renders an outlined premium Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -816,7 +816,7 @@ exports[`Badge renders an outlined standard Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -958,7 +958,7 @@ exports[`Badge renders an outlined success Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -1100,7 +1100,7 @@ exports[`Badge renders an outlined warning Badge component 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -1242,7 +1242,7 @@ exports[`Badge returns undefined for onClick if not provided 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "
@@ -1384,7 +1384,7 @@ exports[`Badge should render without crashing 1`] = `
                 "attrs": Array [],
                 "componentStyle": ComponentStyle {
                   "componentId": "sc-bwzfXH",
-                  "isStatic": true,
+                  "isStatic": false,
                   "lastClassName": "fySOme",
                   "rules": Array [
                     "

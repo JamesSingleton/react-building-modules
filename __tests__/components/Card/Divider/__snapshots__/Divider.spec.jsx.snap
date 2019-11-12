@@ -10,7 +10,7 @@ exports[`Divider should render 1`] = `
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "ljuHUZ",
             "rules": Array [
               "
