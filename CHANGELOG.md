@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/JamesSingleton/react-building-modules/compare/v0.2.1...v0.2.2) (2019-12-12)
+
+
+### Bug Fixes
+
+* package.json, package-lock.json & .snyk to reduce vulnerabilities ([5d7793b](https://github.com/JamesSingleton/react-building-modules/commit/5d7793bdb89e5613776e244ada9a5ad53fcf3e52))
+
 ## [0.2.1](https://github.com/JamesSingleton/react-building-modules/compare/v0.2.0...v0.2.1) (2019-10-05)
 
 
