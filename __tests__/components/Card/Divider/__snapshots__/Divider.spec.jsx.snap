@@ -3,38 +3,9 @@
 exports[`Divider should render 1`] = `
 <Divider>
   <styled.div>
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "ljuHUZ",
-            "rules": Array [
-              "
-  width: 100%;
-  border-bottom: 1px solid #dfe5eb;
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-    >
-      <div
-        className="sc-bdVaJa ljuHUZ"
-      />
-    </StyledComponent>
+    <div
+      className="sc-AykKC gkeoBG"
+    />
   </styled.div>
 </Divider>
 `;

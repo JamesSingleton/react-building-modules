@@ -12,88 +12,28 @@ exports[`Header has a none string title 1`] = `
 >
   <div>
     <styled.div>
-      <StyledComponent
-        forwardedComponent={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "lastClassName": "kkPzXY",
-              "rules": Array [
-                "
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 27px 30px 26px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-        forwardedRef={null}
+      <div
+        className="sc-AykKF ldcSwj"
       >
-        <div
-          className="sc-bxivhb kkPzXY"
-        >
-          <div>
-            <span
-              data-hook="title"
-            >
-              <span>
-                Hello
-              </span>
+        <div>
+          <span
+            data-hook="title"
+          >
+            <span>
+              Hello
             </span>
-            <span
-              data-hook="subtitle"
-            />
-          </div>
+          </span>
+          <span
+            data-hook="subtitle"
+          />
         </div>
-      </StyledComponent>
+      </div>
     </styled.div>
     <Divider>
       <styled.div>
-        <StyledComponent
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bdVaJa",
-                "isStatic": false,
-                "lastClassName": "ljuHUZ",
-                "rules": Array [
-                  "
-  width: 100%;
-  border-bottom: 1px solid #dfe5eb;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bdVaJa",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-        >
-          <div
-            className="sc-bdVaJa ljuHUZ"
-          />
-        </StyledComponent>
+        <div
+          className="sc-AykKC gkeoBG"
+        />
       </styled.div>
     </Divider>
   </div>
@@ -108,195 +48,53 @@ exports[`Header has a title and subtitle 1`] = `
 >
   <div>
     <styled.div>
-      <StyledComponent
-        forwardedComponent={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "lastClassName": "kkPzXY",
-              "rules": Array [
-                "
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 27px 30px 26px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-        forwardedRef={null}
+      <div
+        className="sc-AykKF ldcSwj"
       >
-        <div
-          className="sc-bxivhb kkPzXY"
-        >
-          <div>
-            <Heading
-              appearance="H3"
-              dataHook="title"
+        <div>
+          <Heading
+            appearance="H3"
+            dataHook="title"
+          >
+            <styled.h1
+              as="h3"
             >
-              <styled.h1
-                as="h3"
+              <h3
+                className="sc-AykKD fkvLCn"
               >
-                <StyledComponent
-                  as="h3"
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-bwzfXH",
-                        "isStatic": false,
-                        "lastClassName": "fpXRjA",
-                        "rules": Array [
-                          "
-font-size: ",
-                          [Function],
-                          "
-line-height: ",
-                          [Function],
-                          ";
-color: #162d3d;
-",
-                          [Function],
-                          "
-",
-                        ],
-                      },
-                      "displayName": "styled.h1",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-bwzfXH",
-                      "target": "h1",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                >
-                  <h3
-                    className="sc-bwzfXH fpXRjA"
-                  >
-                    Some Title
-                  </h3>
-                </StyledComponent>
-              </styled.h1>
-            </Heading>
-            <Text
-              dataHook="subtitle"
+                Some Title
+              </h3>
+            </styled.h1>
+          </Heading>
+          <Text
+            dataHook="subtitle"
+            secondary={false}
+            size="medium"
+            tagName="span"
+            weight="thin"
+          >
+            <styled.span
+              as="span"
               secondary={false}
               size="medium"
-              tagName="span"
               weight="thin"
             >
-              <styled.span
-                as="span"
-                secondary={false}
+              <span
+                className="sc-AykKE ioxiWY"
                 size="medium"
-                weight="thin"
               >
-                <StyledComponent
-                  as="span"
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-htpNat",
-                        "isStatic": false,
-                        "lastClassName": "kXlweU",
-                        "rules": Array [
-                          "
-font-size: ",
-                          [Function],
-                          "
-line-height: ",
-                          [Function],
-                          "
-  & > a {
-    color: #3899EC;
-    text-decoration: none;
-    &:hover {
-      color: #4EB7F5;
-    }
-  }
-",
-                        ],
-                      },
-                      "displayName": "styled.span",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-htpNat",
-                      "target": "span",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                  secondary={false}
-                  size="medium"
-                  weight="thin"
-                >
-                  <span
-                    className="sc-htpNat kXlweU"
-                    size="medium"
-                  >
-                    Some Subtitle
-                  </span>
-                </StyledComponent>
-              </styled.span>
-            </Text>
-          </div>
+                Some Subtitle
+              </span>
+            </styled.span>
+          </Text>
         </div>
-      </StyledComponent>
+      </div>
     </styled.div>
     <Divider>
       <styled.div>
-        <StyledComponent
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bdVaJa",
-                "isStatic": false,
-                "lastClassName": "ljuHUZ",
-                "rules": Array [
-                  "
-  width: 100%;
-  border-bottom: 1px solid #dfe5eb;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bdVaJa",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-        >
-          <div
-            className="sc-bdVaJa ljuHUZ"
-          />
-        </StyledComponent>
+        <div
+          className="sc-AykKC gkeoBG"
+        />
       </styled.div>
     </Divider>
   </div>
@@ -311,232 +109,60 @@ exports[`Header has a title and subtitle and suffix 1`] = `
 >
   <div>
     <styled.div>
-      <StyledComponent
-        forwardedComponent={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "lastClassName": "kkPzXY",
-              "rules": Array [
-                "
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 27px 30px 26px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-        forwardedRef={null}
+      <div
+        className="sc-AykKF ldcSwj"
       >
-        <div
-          className="sc-bxivhb kkPzXY"
-        >
-          <div>
-            <Heading
-              appearance="H3"
-              dataHook="title"
+        <div>
+          <Heading
+            appearance="H3"
+            dataHook="title"
+          >
+            <styled.h1
+              as="h3"
             >
-              <styled.h1
-                as="h3"
+              <h3
+                className="sc-AykKD fkvLCn"
               >
-                <StyledComponent
-                  as="h3"
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-bwzfXH",
-                        "isStatic": false,
-                        "lastClassName": "fpXRjA",
-                        "rules": Array [
-                          "
-font-size: ",
-                          [Function],
-                          "
-line-height: ",
-                          [Function],
-                          ";
-color: #162d3d;
-",
-                          [Function],
-                          "
-",
-                        ],
-                      },
-                      "displayName": "styled.h1",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-bwzfXH",
-                      "target": "h1",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                >
-                  <h3
-                    className="sc-bwzfXH fpXRjA"
-                  >
-                    Some Title
-                  </h3>
-                </StyledComponent>
-              </styled.h1>
-            </Heading>
-            <Text
-              dataHook="subtitle"
+                Some Title
+              </h3>
+            </styled.h1>
+          </Heading>
+          <Text
+            dataHook="subtitle"
+            secondary={false}
+            size="medium"
+            tagName="span"
+            weight="thin"
+          >
+            <styled.span
+              as="span"
               secondary={false}
               size="medium"
-              tagName="span"
               weight="thin"
             >
-              <styled.span
-                as="span"
-                secondary={false}
+              <span
+                className="sc-AykKE ioxiWY"
                 size="medium"
-                weight="thin"
               >
-                <StyledComponent
-                  as="span"
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-htpNat",
-                        "isStatic": false,
-                        "lastClassName": "kXlweU",
-                        "rules": Array [
-                          "
-font-size: ",
-                          [Function],
-                          "
-line-height: ",
-                          [Function],
-                          "
-  & > a {
-    color: #3899EC;
-    text-decoration: none;
-    &:hover {
-      color: #4EB7F5;
-    }
-  }
-",
-                        ],
-                      },
-                      "displayName": "styled.span",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-htpNat",
-                      "target": "span",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                  secondary={false}
-                  size="medium"
-                  weight="thin"
-                >
-                  <span
-                    className="sc-htpNat kXlweU"
-                    size="medium"
-                  >
-                    Some Subtitle
-                  </span>
-                </StyledComponent>
-              </styled.span>
-            </Text>
-          </div>
-          <styled.div>
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "sc-ifAKCX",
-                    "isStatic": false,
-                    "lastClassName": "iNNKCX",
-                    "rules": Array [
-                      "
-  height: 0;
-  display: flex;
-  align-items: center;
-",
-                    ],
-                  },
-                  "displayName": "styled.div",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "sc-ifAKCX",
-                  "target": "div",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
-            >
-              <div
-                className="sc-ifAKCX iNNKCX"
-              >
-                A Suffix
-              </div>
-            </StyledComponent>
-          </styled.div>
+                Some Subtitle
+              </span>
+            </styled.span>
+          </Text>
         </div>
-      </StyledComponent>
+        <styled.div>
+          <div
+            className="sc-AykKG jTITOG"
+          >
+            A Suffix
+          </div>
+        </styled.div>
+      </div>
     </styled.div>
     <Divider>
       <styled.div>
-        <StyledComponent
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bdVaJa",
-                "isStatic": false,
-                "lastClassName": "ljuHUZ",
-                "rules": Array [
-                  "
-  width: 100%;
-  border-bottom: 1px solid #dfe5eb;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bdVaJa",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-        >
-          <div
-            className="sc-bdVaJa ljuHUZ"
-          />
-        </StyledComponent>
+        <div
+          className="sc-AykKC gkeoBG"
+        />
       </styled.div>
     </Divider>
   </div>
@@ -551,133 +177,35 @@ exports[`Header should render 1`] = `
 >
   <div>
     <styled.div>
-      <StyledComponent
-        forwardedComponent={
-          Object {
-            "$$typeof": Symbol(react.forward_ref),
-            "attrs": Array [],
-            "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
-              "isStatic": false,
-              "lastClassName": "kkPzXY",
-              "rules": Array [
-                "
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 27px 30px 26px;
-",
-              ],
-            },
-            "displayName": "styled.div",
-            "foldedComponentIds": Array [],
-            "render": [Function],
-            "styledComponentId": "sc-bxivhb",
-            "target": "div",
-            "toString": [Function],
-            "warnTooManyClasses": [Function],
-            "withComponent": [Function],
-          }
-        }
-        forwardedRef={null}
+      <div
+        className="sc-AykKF ldcSwj"
       >
-        <div
-          className="sc-bxivhb kkPzXY"
-        >
-          <div>
-            <Heading
-              appearance="H3"
-              dataHook="title"
+        <div>
+          <Heading
+            appearance="H3"
+            dataHook="title"
+          >
+            <styled.h1
+              as="h3"
             >
-              <styled.h1
-                as="h3"
+              <h3
+                className="sc-AykKD fkvLCn"
               >
-                <StyledComponent
-                  as="h3"
-                  forwardedComponent={
-                    Object {
-                      "$$typeof": Symbol(react.forward_ref),
-                      "attrs": Array [],
-                      "componentStyle": ComponentStyle {
-                        "componentId": "sc-bwzfXH",
-                        "isStatic": false,
-                        "lastClassName": "fpXRjA",
-                        "rules": Array [
-                          "
-font-size: ",
-                          [Function],
-                          "
-line-height: ",
-                          [Function],
-                          ";
-color: #162d3d;
-",
-                          [Function],
-                          "
-",
-                        ],
-                      },
-                      "displayName": "styled.h1",
-                      "foldedComponentIds": Array [],
-                      "render": [Function],
-                      "styledComponentId": "sc-bwzfXH",
-                      "target": "h1",
-                      "toString": [Function],
-                      "warnTooManyClasses": [Function],
-                      "withComponent": [Function],
-                    }
-                  }
-                  forwardedRef={null}
-                >
-                  <h3
-                    className="sc-bwzfXH fpXRjA"
-                  >
-                    Some Title
-                  </h3>
-                </StyledComponent>
-              </styled.h1>
-            </Heading>
-            <span
-              data-hook="subtitle"
-            />
-          </div>
+                Some Title
+              </h3>
+            </styled.h1>
+          </Heading>
+          <span
+            data-hook="subtitle"
+          />
         </div>
-      </StyledComponent>
+      </div>
     </styled.div>
     <Divider>
       <styled.div>
-        <StyledComponent
-          forwardedComponent={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": Array [],
-              "componentStyle": ComponentStyle {
-                "componentId": "sc-bdVaJa",
-                "isStatic": false,
-                "lastClassName": "ljuHUZ",
-                "rules": Array [
-                  "
-  width: 100%;
-  border-bottom: 1px solid #dfe5eb;
-",
-                ],
-              },
-              "displayName": "styled.div",
-              "foldedComponentIds": Array [],
-              "render": [Function],
-              "styledComponentId": "sc-bdVaJa",
-              "target": "div",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
-        >
-          <div
-            className="sc-bdVaJa ljuHUZ"
-          />
-        </StyledComponent>
+        <div
+          className="sc-AykKC gkeoBG"
+        />
       </styled.div>
     </Divider>
   </div>

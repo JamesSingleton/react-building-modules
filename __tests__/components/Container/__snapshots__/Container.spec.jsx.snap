@@ -11,53 +11,11 @@ exports[`Container renders a full Container component 1`] = `
     fullVertical={false}
     small={false}
   >
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "dYLZGK",
-            "rules": Array [
-              "
-    padding-left: ",
-              [Function],
-              ";
-    padding-right: ",
-              [Function],
-              ";
-    padding-top: ",
-              [Function],
-              ";
-    padding-bottom: ",
-              [Function],
-              ";
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-      full={true}
-      fullVertical={false}
-      small={false}
+    <div
+      className="sc-AykKC eeYOZP"
     >
-      <div
-        className="sc-bdVaJa dYLZGK"
-      >
-        Full Container
-      </div>
-    </StyledComponent>
+      Full Container
+    </div>
   </styled.div>
 </Container>
 `;
@@ -73,53 +31,11 @@ exports[`Container renders a full vertical Container component 1`] = `
     fullVertical={true}
     small={false}
   >
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "lfOKPp",
-            "rules": Array [
-              "
-    padding-left: ",
-              [Function],
-              ";
-    padding-right: ",
-              [Function],
-              ";
-    padding-top: ",
-              [Function],
-              ";
-    padding-bottom: ",
-              [Function],
-              ";
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-      full={false}
-      fullVertical={true}
-      small={false}
+    <div
+      className="sc-AykKC cGmkpR"
     >
-      <div
-        className="sc-bdVaJa lfOKPp"
-      >
-        Full Vertical Container
-      </div>
-    </StyledComponent>
+      Full Vertical Container
+    </div>
   </styled.div>
 </Container>
 `;
@@ -135,53 +51,11 @@ exports[`Container renders a small Container component 1`] = `
     fullVertical={false}
     small={true}
   >
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "fOkvyZ",
-            "rules": Array [
-              "
-    padding-left: ",
-              [Function],
-              ";
-    padding-right: ",
-              [Function],
-              ";
-    padding-top: ",
-              [Function],
-              ";
-    padding-bottom: ",
-              [Function],
-              ";
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-      full={false}
-      fullVertical={false}
-      small={true}
+    <div
+      className="sc-AykKC iuZucl"
     >
-      <div
-        className="sc-bdVaJa fOkvyZ"
-      >
-        Hello Small Container
-      </div>
-    </StyledComponent>
+      Hello Small Container
+    </div>
   </styled.div>
 </Container>
 `;
@@ -197,53 +71,11 @@ exports[`Container should render without crashing with just a child passed 1`] =
     fullVertical={false}
     small={false}
   >
-    <StyledComponent
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "bHeHMU",
-            "rules": Array [
-              "
-    padding-left: ",
-              [Function],
-              ";
-    padding-right: ",
-              [Function],
-              ";
-    padding-top: ",
-              [Function],
-              ";
-    padding-bottom: ",
-              [Function],
-              ";
-",
-            ],
-          },
-          "displayName": "styled.div",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "div",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-      full={false}
-      fullVertical={false}
-      small={false}
+    <div
+      className="sc-AykKC hNUvFz"
     >
-      <div
-        className="sc-bdVaJa bHeHMU"
-      >
-        Hello Span
-      </div>
-    </StyledComponent>
+      Hello Span
+    </div>
   </styled.div>
 </Container>
 `;

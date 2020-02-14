@@ -13,56 +13,12 @@ exports[`Text renders a small text component 1`] = `
     size="small"
     weight="thin"
   >
-    <StyledComponent
-      as="span"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "cQhRnj",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              "
-  & > a {
-    color: #3899EC;
-    text-decoration: none;
-    &:hover {
-      color: #4EB7F5;
-    }
-  }
-",
-            ],
-          },
-          "displayName": "styled.span",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-      secondary={false}
+    <span
+      className="sc-AykKC gQUtGu"
       size="small"
-      weight="thin"
     >
-      <span
-        className="sc-bdVaJa cQhRnj"
-        size="small"
-      >
-        Hello Small Span
-      </span>
-    </StyledComponent>
+      Hello Small Span
+    </span>
   </styled.span>
 </Text>
 `;
@@ -80,56 +36,12 @@ exports[`Text renders a tiny text component 1`] = `
     size="tiny"
     weight="thin"
   >
-    <StyledComponent
-      as="span"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "hlDebU",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              "
-  & > a {
-    color: #3899EC;
-    text-decoration: none;
-    &:hover {
-      color: #4EB7F5;
-    }
-  }
-",
-            ],
-          },
-          "displayName": "styled.span",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-      secondary={false}
+    <span
+      className="sc-AykKC dIgvJF"
       size="tiny"
-      weight="thin"
     >
-      <span
-        className="sc-bdVaJa hlDebU"
-        size="tiny"
-      >
-        Hello Tiny Span
-      </span>
-    </StyledComponent>
+      Hello Tiny Span
+    </span>
   </styled.span>
 </Text>
 `;
@@ -147,56 +59,12 @@ exports[`Text should render as a span 1`] = `
     size="medium"
     weight="thin"
   >
-    <StyledComponent
-      as="span"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "gIUtbY",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              "
-  & > a {
-    color: #3899EC;
-    text-decoration: none;
-    &:hover {
-      color: #4EB7F5;
-    }
-  }
-",
-            ],
-          },
-          "displayName": "styled.span",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "span",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
-      secondary={false}
+    <span
+      className="sc-AykKC buJqJu"
       size="medium"
-      weight="thin"
     >
-      <span
-        className="sc-bdVaJa gIUtbY"
-        size="medium"
-      >
-        Hello Span
-      </span>
-    </StyledComponent>
+      Hello Span
+    </span>
   </styled.span>
 </Text>
 `;

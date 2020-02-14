@@ -7,49 +7,11 @@ exports[`Heading should render as an H1 1`] = `
   <styled.h1
     as="h1"
   >
-    <StyledComponent
-      as="h1"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "fQOIHC",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              ";
-color: #162d3d;
-",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.h1",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "h1",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <h1
+      className="sc-AykKC choAwF"
     >
-      <h1
-        className="sc-bdVaJa fQOIHC"
-      >
-        Hello World
-      </h1>
-    </StyledComponent>
+      Hello World
+    </h1>
   </styled.h1>
 </Heading>
 `;
@@ -61,49 +23,11 @@ exports[`Heading should render as an H2 1`] = `
   <styled.h1
     as="h2"
   >
-    <StyledComponent
-      as="h2"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "IAegX",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              ";
-color: #162d3d;
-",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.h1",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "h1",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <h2
+      className="sc-AykKC gSgKAN"
     >
-      <h2
-        className="sc-bdVaJa IAegX"
-      >
-        Hello World
-      </h2>
-    </StyledComponent>
+      Hello World
+    </h2>
   </styled.h1>
 </Heading>
 `;
@@ -115,49 +39,11 @@ exports[`Heading should render as an H3 1`] = `
   <styled.h1
     as="h3"
   >
-    <StyledComponent
-      as="h3"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "bUyReG",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              ";
-color: #162d3d;
-",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.h1",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "h1",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <h3
+      className="sc-AykKC bqYXNW"
     >
-      <h3
-        className="sc-bdVaJa bUyReG"
-      >
-        Hello World
-      </h3>
-    </StyledComponent>
+      Hello World
+    </h3>
   </styled.h1>
 </Heading>
 `;
@@ -169,49 +55,11 @@ exports[`Heading should render as an H4 1`] = `
   <styled.h1
     as="h4"
   >
-    <StyledComponent
-      as="h4"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "etajLb",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              ";
-color: #162d3d;
-",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.h1",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "h1",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <h4
+      className="sc-AykKC ga-Dkwf"
     >
-      <h4
-        className="sc-bdVaJa etajLb"
-      >
-        Hello World
-      </h4>
-    </StyledComponent>
+      Hello World
+    </h4>
   </styled.h1>
 </Heading>
 `;
@@ -223,49 +71,11 @@ exports[`Heading should render as an H5 1`] = `
   <styled.h1
     as="h5"
   >
-    <StyledComponent
-      as="h5"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "kOptkR",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              ";
-color: #162d3d;
-",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.h1",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "h1",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <h5
+      className="sc-AykKC XKOaj"
     >
-      <h5
-        className="sc-bdVaJa kOptkR"
-      >
-        Hello World
-      </h5>
-    </StyledComponent>
+      Hello World
+    </h5>
   </styled.h1>
 </Heading>
 `;
@@ -277,49 +87,11 @@ exports[`Heading should render as an H6 1`] = `
   <styled.h1
     as="h6"
   >
-    <StyledComponent
-      as="h6"
-      forwardedComponent={
-        Object {
-          "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [],
-          "componentStyle": ComponentStyle {
-            "componentId": "sc-bdVaJa",
-            "isStatic": false,
-            "lastClassName": "cHeaDX",
-            "rules": Array [
-              "
-font-size: ",
-              [Function],
-              "
-line-height: ",
-              [Function],
-              ";
-color: #162d3d;
-",
-              [Function],
-              "
-",
-            ],
-          },
-          "displayName": "styled.h1",
-          "foldedComponentIds": Array [],
-          "render": [Function],
-          "styledComponentId": "sc-bdVaJa",
-          "target": "h1",
-          "toString": [Function],
-          "warnTooManyClasses": [Function],
-          "withComponent": [Function],
-        }
-      }
-      forwardedRef={null}
+    <h6
+      className="sc-AykKC iAAQMf"
     >
-      <h6
-        className="sc-bdVaJa cHeaDX"
-      >
-        Hello World
-      </h6>
-    </StyledComponent>
+      Hello World
+    </h6>
   </styled.h1>
 </Heading>
 `;
