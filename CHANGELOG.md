@@ -1,3 +1,10 @@
+## [0.2.5](https://github.com/JamesSingleton/react-building-modules/compare/v0.2.4...v0.2.5) (2020-02-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency styled-components to v5 ([64451e7](https://github.com/JamesSingleton/react-building-modules/commit/64451e79f9ba3effeefaaf8de57e6a1a3f5e4d02))
+
 ## [0.2.4](https://github.com/JamesSingleton/react-building-modules/compare/v0.2.3...v0.2.4) (2020-02-01)
 
 
