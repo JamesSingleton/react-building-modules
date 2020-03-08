@@ -90,7 +90,7 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-terser": "5.2.0",
     "semantic-release": "17.0.4",
-    "yargs": "15.2.0"
+    "yargs": "15.3.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
