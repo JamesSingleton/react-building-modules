@@ -71,7 +71,7 @@
     "@storybook/addons": "5.3.19",
     "@storybook/react": "5.3.19",
     "@storybook/theming": "5.3.19",
-    "amex-jest-preset-react": "6.0.0",
+    "amex-jest-preset-react": "6.1.0",
     "babel-loader": "8.1.0",
     "babel-preset-amex": "3.4.0",
     "enzyme": "3.11.0",
