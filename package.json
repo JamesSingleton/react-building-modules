@@ -58,7 +58,7 @@
     "styled-system": "^5.1.1"
   },
   "devDependencies": {
-    "@babel/core": "7.13.10",
+    "@babel/core": "7.13.13",
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-conventional": "12.0.1",
     "@semantic-release/changelog": "5.0.1",
