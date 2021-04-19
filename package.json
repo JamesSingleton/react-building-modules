@@ -53,7 +53,7 @@
   "dependencies": {
     "classnames": "^2.3.1",
     "prop-types": "^15.7.2",
-    "snyk": "^1.290.1",
+    "snyk": "^1.557.0",
     "styled-components": "^5.0.0",
     "styled-system": "^5.1.1"
   },
