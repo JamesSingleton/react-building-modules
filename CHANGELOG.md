@@ -1,3 +1,10 @@
+## [0.2.6](https://github.com/JamesSingleton/react-building-modules/compare/v0.2.5...v0.2.6) (2021-04-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency classnames to ^2.3.1 ([6e7afe2](https://github.com/JamesSingleton/react-building-modules/commit/6e7afe24d5efa993439f8d17d56d1e498fd99e56))
+
 ## [0.2.5](https://github.com/JamesSingleton/react-building-modules/compare/v0.2.4...v0.2.5) (2020-02-14)
 
 
